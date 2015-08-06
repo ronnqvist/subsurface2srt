@@ -28,6 +28,7 @@ Build:
 Prereqs: Haskell - eg apt-get install haskell-platform
 
 Build subsurface2srt by:
+  cabal update
   cabal install
 
 Add ~/.cabal/bin/ to your PATH
