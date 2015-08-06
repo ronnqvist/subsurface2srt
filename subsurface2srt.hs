@@ -70,7 +70,7 @@ fromRight (Right r) = r
 
 printSample so ((time, depth),n) = do
   let startTime = formatTime (time + so)
-  let endTime = formatEndTime (time + so + 19)
+  let endTime = formatEndTime (time + so + 3)
   print n
   putStr startTime
   putStr " --> "
